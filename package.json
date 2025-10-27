@@ -1,0 +1,17 @@
+
+{
+  "name": "stock-alert-system",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "@vercel/kv": "^0.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.16.0"
+  }
+}
